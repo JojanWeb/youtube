@@ -183,13 +183,14 @@ hr {
   align-items: center;
 }
 
-.profile-container__profile-box {
+.profile-box {
   position: relative;
   height: 40px;
   width: 40px;
 }
 
-.profile-container__profile-box img {
+.profile-box img,
+.profile-box--pequeño img {
   border-radius: 50%;
 }
 
@@ -312,11 +313,9 @@ hr {
   padding-top: 12px;
 }
 
-.video-container__chanel-logo {
-  position: relative;
+.profile-box--pequeño {
   min-width: 35px;
   height: 35px;
-  border-radius: 50%;
   overflow: hidden;
 }
 
